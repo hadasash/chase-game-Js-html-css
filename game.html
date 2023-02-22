@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="dollar">
+      </div>
+      <button id="sound-button">
+        <img src="images/sound.png" alt="sound icon" width="55" height="55">
+      </button>
+      <canvas id="canvas" width="1100" height="470"></canvas>
+      <div id="controls">
+        <div id="messageGameOverDiv">
+          <p id="messageGameOverP">GAME OVER</p>
+        </div>
+        <div class="coins">
+          <p>
+            <img src="images/eggs.png" alt="coin" id="coin-image">
+            <span id="egg-collected">0</span>
+          </p>
+        </div>
+        <div class="buttons">
+          <button id="start-button">Start</button>
+          <button id="stop-button">Stop</button>
+        </div>
+      </div>
+    </div>
+    <script  src="game.js"></script> 
+    <script  src="./classes/Player.js"></script>
+     <script  src="./classes/Egg.js"></script>
+     <script src="./classes/Enemy.js"></script>
+
+  </body>
+</html>
