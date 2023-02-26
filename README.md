@@ -7,11 +7,14 @@ The bird runs away from the enemy using the keyboard arrows, and collects eggs t
 The goal of the game is to collect as many eggs as possible to break your own record.
 When the bird collects an egg the speed of the player and the enemy increases and the bird grows.
 
+• When the bird collects an egg the players speed and the enemy speed increases and the bird grows.
+
+• When the bird collects a Power Coin the enemy's speed slows down to 5 seconds.
+
+• There is a button on the side to turn off the music.
+
 • There is a possibility of stopping the game (without closing it) and continuing from the same point after the stop.
 
-• There is a button on the side to turn off the music
-
-• When the bird collects an egg the players speed and the enemy speed increases and the bird grows
 
 Installations:
 
