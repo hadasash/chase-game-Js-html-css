@@ -165,6 +165,8 @@ document.addEventListener("DOMContentLoaded", function () {
         if (pause == false) {
             eggsCollected = 0;
             egg.isCollected = false;
+            document.getElementById("egg-collected").textContent = eggsCollected;
+
             startGame();
         }
         else {
