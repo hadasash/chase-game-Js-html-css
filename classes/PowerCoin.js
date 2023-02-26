@@ -1,7 +1,7 @@
-const EGG_IMAGE = new Image();
-EGG_IMAGE.src = "./images/chicken.png";
+const POWER_IMAGE = new Image();
+POWER_IMAGE.src = "./images/coin.png";
 
-class Egg {
+class PowerCoin {
 
     constructor(x, y, size, isCollected) {  
         this.x = x;
@@ -10,6 +10,6 @@ class Egg {
         this.isCollected = isCollected;
     }
     draw(ctx) {
-        ctx.drawImage(EGG_IMAGE, this.x, this.y, this.size, this.size);
+        ctx.drawImage(POWER_IMAGE, this.x, this.y, this.size, this.size);
     }
 }
